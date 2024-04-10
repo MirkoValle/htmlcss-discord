@@ -56,10 +56,10 @@ body {
 
 .main-content-disp {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 10rem;
-    margin: 0 5rem 0 0;
+    padding: 10rem 9rem 0 9rem;
+
 }
 
 .testo-disp {
@@ -68,9 +68,9 @@ body {
     justify-content: center;
 }
 
-.left-padding {
-    padding-left: 2rem;
-    width: 30%;
+.padding {
+    padding: 0 3rem 0 0;
+    width: 35%;
 }
 
 .img-main {
@@ -126,12 +126,13 @@ li {
 .jumbo {
     background-image: url(../Img/jumbo.png);
     background-size: cover;
+    background-position: center center;
 }
 
 .introduzione {
     justify-content: center;
     align-items: center;
-    margin: 12rem 30rem 7.6rem 30rem;
+    margin: 12rem 30rem 4.8rem 30rem;
     color: white;
 }
 
@@ -163,7 +164,7 @@ span.freccia {
 }
 
 .last-testo-disp {
-    padding: 0 18rem;
+    padding: 0 9rem;
     text-align: center;
 }
 
@@ -215,7 +216,7 @@ i {
     font-size: 1.5rem;
 }
 
-footer section>p {
+footer div>p {
     padding: 1.5rem 0;
 }
 
@@ -247,4 +248,8 @@ footer h2 {
     width: 1.7rem;
     text-align: center;
     vertical-align: middle;
+}
+
+.fa-solid {
+    font-size: 1rem;
 }
