@@ -9,6 +9,11 @@
     font-variation-settings: "wdth" 100;
 }
 
+body {
+    margin: auto;
+    max-width: 1920px;
+}
+
 header {
     display: flex;
     flex-direction: column;
