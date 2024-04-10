@@ -153,20 +153,31 @@ span {
 }
 
 .img-last-main {
-    width: 90rem;
+    width: 95rem;
 }
 
-#last-testo-disp {
-    padding: 0;
+.last-testo-disp {
+    padding: 0 18rem;
     text-align: center;
 }
 
 .h-style-small {
     font-size: 2.5rem;
-    padding: 3rem 3rem 0 3rem;
+    padding: 3rem 5rem 0 5rem;
     background-image: url(../Img/stars.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.h-style-last {
+    font-size: 3.7rem;
+    padding-bottom: 2rem;
+}
+
+.testo-small-style-last {
+    font-size: 1.55rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
 }
 
 .last-main-button {
