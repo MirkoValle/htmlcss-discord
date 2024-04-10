@@ -32,6 +32,10 @@ body {
     background-color: #7289da;
 }
 
+.text-discord-color {
+    color: #7289da;
+}
+
 .discord-black {
     background-color: #23272a;
     color: white;
@@ -91,6 +95,7 @@ ul {
     list-style: none;
     justify-content: space-around;
 }
+
 
 li {
     color: white;
@@ -181,18 +186,41 @@ span {
 }
 
 .last-main-button {
-    margin: 3rem 15rem 10rem 15rem;
+    margin: 3rem 18rem 10rem 18rem;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .bot-nav {
-    margin: 0 10rem;
+    margin: 0 13rem;
     padding-top: 5rem;
+    display: flex;
+}
+
+.contenitore-lingua-social {
+    padding-right: 5rem;
+}
+
+.lista-end {
+    width: 100%;
+}
+
+footer li {
+    font-size: 1rem;
+}
+
+footer h2 {
+    font-size: 2.5rem;
 }
 
 .end {
     border-top: .15rem solid #4c5a87;
-    padding: 1.5rem 1.5rem 3.5rem 1.5rem;
-    margin: 3rem 10rem 0 10rem;
+    padding: 1.5rem 0 3.5rem 0;
+    margin: 3rem 13rem 0 13rem;
     display: flex;
     justify-content: space-between;
+}
+
+.end button {
+    color: white;
 }
