@@ -186,6 +186,10 @@ span.freccia {
     padding: 0 3rem;
 }
 
+#nomargin {
+    margin: 0;
+}
+
 .last-main-button {
     margin: 3rem 18rem 10rem 18rem;
     color: white;
