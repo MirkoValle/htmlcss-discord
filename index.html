@@ -15,16 +15,16 @@
 
 <body>
 
-    <header>
+    <header class="flex-column">
         <!--Barra navigazione-->
-        <nav class="top-nav">
+        <nav class="blue">
             <!-- sezione contenuti -->
-            <section class="barra-navigazione">
+            <section class="barra-navigazione flex-between">
                 <!-- logo -->
                 <img class="main-logo" src="Img/logo.svg" alt="Logo Discord">
                 <!-- sezione navigazione -->
                 <section class="conteiner">
-                    <ul class="menù">
+                    <ul>
                         <li class="tasti-menù">Scarica</li>
                         <li class="tasti-menù">Perchè Discord</li>
                         <li class="tasti-menù">Nitro</li>
@@ -39,7 +39,7 @@
         <!--Sezione introduzione e bottoni download-->
         <section class="jumbo">
             <!-- sezione contenuti -->
-            <section class="introduzione">
+            <section class="introduzione flex-column">
                 <!-- Testo -->
                 <section class="testo-disp" id="center-text">
                     <h1 class="h-style">Il tuo posto per parlare</h1>
@@ -76,9 +76,7 @@
         <!-- pannello secondo gruppo -->
         <section>
             <!-- sezione contenuti -->
-            <section class="main-content-disp" id="inverted">
-                <!-- immagine -->
-                <img src="Img/item2.svg" alt="">
+            <section class="main-content-disp">
                 <!-- sezione testo -->
                 <section class="testo-disp left-padding" id="left-text">
                     <h2 class="h-style">Dove trovarsi è facile</h2>
@@ -86,6 +84,8 @@
                         server possono vedere che
                         sei lì e unirsi istantaneamente senza dover chiamare.</p>
                 </section>
+                <!-- immagine -->
+                <img src="Img/item2.svg" alt="">
             </section>
         </section>
 
@@ -108,7 +108,7 @@
         <!-- pannello quarto gruppo -->
         <section>
             <!-- sezione contenuto -->
-            <section class="main-content-disp" id="last-main">
+            <section class="main-content-disp flex-column">
                 <!-- sezione testo -->
                 <section class="testo-disp" id="center-text">
                     <h2 class="h-style">Tecnologia affidabile per tenersi in contatto</h2>
@@ -134,9 +134,9 @@
 
     <footer>
         <!-- sezione contenuto -->
-        <section class="footer-cont">
+        <section class="flex-column">
             <!-- sezione primo contenuto -->
-            <nav class="bot-nav">
+            <nav class="bot-nav flex-between">
                 <!-- sezione lingua e social -->
                 <section>
                     <h2>Il tuo posto per parlare</h2>
@@ -149,7 +149,7 @@
                 <!-- Prima colonna -->
                 <nav>
                     <h3>Prodotto</h3>
-                    <ul class="ul-bot">
+                    <ul class="flex-column">
                         <li>Scarica</li>
                         <li>Perchè Discord</li>
                         <li>Nitro</li>
@@ -160,7 +160,7 @@
                 <!-- seconda colonna -->
                 <nav>
                     <h3>Compagnia</h3>
-                    <ul class="ul-bot">
+                    <ul class="flex-column">
                         <li>Chi siamo</li>
                         <li>Lavora con noi</li>
                         <li>Marchio</li>
@@ -171,7 +171,7 @@
                 <!-- terza colonna -->
                 <nav>
                     <h3>Risorse</h3>
-                    <ul class="ul-bot">
+                    <ul class="flex-column">
                         <li>Scarica</li>
                         <li>Perchè Dicord</li>
                         <li>Nitro</li>
@@ -187,7 +187,7 @@
                 <!-- quarta colonna -->
                 <nav>
                     <h3>Norme</h3>
-                    <ul class="ul-bot">
+                    <ul class="flex-column">
                         <li>Scarica</li>
                         <li>Perchè Dicord</li>
                         <li>Nitro</li>

@@ -14,108 +14,23 @@ body {
     max-width: 1920px;
 }
 
-header {
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-.top-nav {
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue {
     background-color: #255ee9;
 }
 
-.barra-navigazione {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 3rem;
-    margin: 0 10rem;
+.discord-color {
+    background-color: #7289da;
 }
-
-.conteiner {
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    padding-top: 1rem;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-
-.ul-bot {
-    flex-direction: column;
-}
-
-li {
-    color: white;
-    padding-top: 1rem;
-}
-
-.tasti-menù {
-    padding: 0 2rem;
-    font-size: 1.2rem;
-}
-
-button {
-    padding: .7rem 1.3rem;
-    border-radius: 2rem;
-    border: none;
-    margin: 0;
-    font-size: 1.3rem;
-}
-
-.bottone-intro {
-    margin: 0 .5rem;
-}
-
-.jumbo {
-    background-image: url(../Img/jumbo.png);
-    background-size: cover;
-}
-
-.introduzione {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 12rem 30rem 10rem 30rem;
-    color: white;
-}
-
-.left-padding {
-    padding-left: 5rem;
-}
-
-#last-testo-disp {
-    padding: 0;
-    text-align: center;
-}
-
-.testo-disp {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.h-style {
-    font-size: 4rem;
-    padding-bottom: 2rem;
-
-}
-
-.h-style-small {
-    font-size: 2.5rem;
-    padding: 3rem 3rem 0 3rem;
-    background-image: url(../Img/stars.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-
-}
-
 
 #center-text {
     text-align: center;
@@ -125,20 +40,9 @@ button {
     text-align: start;
 }
 
-
-
 .testo-small-style {
     font-size: 1.65rem;
     line-height: 2.8rem;
-}
-
-.bottoni-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    padding-top: 1rem;
-
 }
 
 .main-content-disp {
@@ -149,43 +53,119 @@ button {
     padding-top: 8rem;
 }
 
-#inverted {
-    flex-direction: row-reverse;
-}
-
-#last-main {
-    flex-direction: column;
-}
-
-footer {
-    background-color: #23272a;
-}
-
-.footer-cont {
+.testo-disp {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.left-padding {
+    padding-left: 5rem;
+}
+
+.h-style {
+    font-size: 4rem;
     padding-bottom: 2rem;
 }
 
-.bot-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10rem;
-    padding-top: 5rem;
+button {
+    padding: .7rem 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 0;
+    font-size: 1.3rem;
 }
 
-.end {
-    border-top: .15rem solid #4c5a87;
-    padding: 1.5rem;
-    margin: 3rem 10rem 0 10rem;
+ul {
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li {
+    color: white;
+    padding-top: 1rem;
+}
+
+/*! inizio regole a se*/
+.barra-navigazione {
+    align-items: center;
+    padding: 2rem 3rem;
+    margin: 0 10rem;
+}
+
+.main-logo {
+    width: 10rem;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.tasti-menù {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.jumbo {
+    background-image: url(../Img/jumbo.png);
+    background-size: cover;
+}
+
+.introduzione {
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 30rem 10rem 30rem;
+    color: white;
+}
+
+h1 {
+    padding-top: 1rem;
+}
+
+.bottoni-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.bottone-intro {
+    margin: 0 .5rem;
+}
+
+#last-testo-disp {
+    padding: 0;
+    text-align: center;
+}
+
+.h-style-small {
+    font-size: 2.5rem;
+    padding: 3rem 3rem 0 3rem;
+    background-image: url(../Img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .last-main-button {
     margin: 3rem 15rem 10rem 15rem;
 }
 
-[alt="stelle"] {
-    width: 43rem;
+footer {
+    background-color: #23272a;
+}
+
+.bot-nav {
+    margin: 0 10rem;
+    padding-top: 5rem;
+}
+
+.end {
+    border-top: .15rem solid #4c5a87;
+    padding: 1.5rem 1.5rem 3.5rem 1.5rem;
+    margin: 3rem 10rem 0 10rem;
+    display: flex;
+    justify-content: space-between;
 }
